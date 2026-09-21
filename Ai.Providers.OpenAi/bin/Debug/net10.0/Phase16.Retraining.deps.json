@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Phase16.Retraining/1.0.0": {
+        "runtime": {
+          "Phase16.Retraining.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Phase16.Retraining/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

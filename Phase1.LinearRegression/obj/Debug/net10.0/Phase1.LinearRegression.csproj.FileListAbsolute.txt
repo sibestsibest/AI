@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\bin\Debug\net10.0\Phase1.LinearRegression.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\bin\Debug\net10.0\Phase1.LinearRegression.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\bin\Debug\net10.0\Phase1.LinearRegression.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\bin\Debug\net10.0\Phase1.LinearRegression.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\bin\Debug\net10.0\Phase1.LinearRegression.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\Phase1.LinearRegression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\Phase1.LinearRegression.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\Phase1.LinearRegression.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\Phase1.LinearRegression.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\Phase1.LinearRegression.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\refint\Phase1.LinearRegression.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\Phase1.LinearRegression.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\Phase1.LinearRegression.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase1.LinearRegression\obj\Debug\net10.0\ref\Phase1.LinearRegression.dll
