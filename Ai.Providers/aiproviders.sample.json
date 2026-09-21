@@ -1,0 +1,154 @@
+{
+  // MẪU CẤU HÌNH LỚP PROVIDER
+  //
+  // Cách dùng: sao file này thành "aiproviders.json" đặt cạnh file thực thi,
+  // hoặc trỏ biến môi trường AI_PROVIDERS tới đường dẫn của nó.
+  //
+  // KHÔNG BAO GIỜ điền khoá API vào đây. Trường "ApiKeyEnvironmentVariable" là
+  // TÊN BIẾN MÔI TRƯỜNG chứa khoá. File này bị commit; biến môi trường thì
+  // không. Nếu trong file có chuỗi trông như khoá thật, cấu hình sẽ bị TỪ CHỐI
+  // toàn bộ và hệ thống quay về mặc định chỉ-local.
+  //
+  // Đặt khoá (PowerShell, chỉ cho phiên hiện tại):
+  //     $env:AI_GROQ_KEY = "..."
+  // Hoặc lâu dài, cho user hiện tại:
+  //     [Environment]::SetEnvironmentVariable("AI_GROQ_KEY", "...", "User")
+  //
+  // Cũng đọc được từ .NET user-secrets nếu bạn khai UserSecretsId khi dựng
+  // SecretResolver.
+
+  // LocalFirst  : ưu tiên model chạy tại máy, rồi mới ra ngoài  (mặc định)
+  // LocalOnly   : chỉ dùng model tại máy, không gọi ra ngoài
+  // ConfiguredOrder: đúng thứ tự khai dưới đây
+  "Strategy": "LocalFirst",
+
+  // Provider được thử trước tiên, bất kể chiến lược. Bỏ trống thì theo chiến lược.
+  "DefaultProvider": null,
+
+  // Hạn mức của ỨNG DỤNG, không phải của nhà cung cấp: chặn việc vô tình đẩy
+  // một tài liệu dài ra ngoài, và chặn phản hồi khổng lồ từ provider hỏng.
+  "MaxPromptCharacters": 12000,
+  "MaxResponseCharacters": 8000,
+
+  "Providers": [
+    {
+      "Name": "ollama",
+      "Type": "Ollama",
+      "Enabled": true,
+      "Endpoint": "http://localhost:11434",
+
+      // Bỏ trống = tự lấy model đầu tiên máy đang có (qua /api/tags).
+      // Điền tên thì model đó PHẢI có thật, nếu không provider bị coi là
+      // không sẵn sàng — cố ý, để lỗi lộ ra ở chỗ cấu hình chứ không phải ở
+      // giữa một câu trả lời.
+      "DefaultModel": null,
+
+      "TimeoutSeconds": 60,
+      "MaxRetries": 1
+    },
+
+    {
+      // MẪU cho bất kỳ dịch vụ dùng hợp đồng kiểu OpenAI (/v1/chat/completions).
+      // Đổi Name, Endpoint, tên biến môi trường và DefaultModel là xong — không
+      // cần sửa code. Mặc định TẮT, vì nó gọi ra ngoài máy.
+      //
+      // KHÔNG có khẳng định nào ở đây về việc dịch vụ nào miễn phí: giá và hạn
+      // mức đổi liên tục, hãy tự kiểm tra điều khoản hiện hành của họ.
+      "Name": "openai-compatible",
+      "Type": "OpenAiCompatible",
+      "Enabled": false,
+      "Endpoint": "https://example-provider.invalid/v1",
+      "ApiKeyEnvironmentVariable": "AI_PROVIDER_KEY",
+      "DefaultModel": "đặt-tên-model-ở-đây",
+
+      // Danh sách cho phép. Rỗng = cho phép mọi model. Điền vào thì chỉ những
+      // model này được gọi — chặn việc một chỗ gọi lỡ yêu cầu model đắt hơn.
+      "Models": [],
+
+      "TimeoutSeconds": 30,
+      "MaxRetries": 2,
+
+      // Loại việc mà provider này được ưu tiên. Rỗng = mọi loại việc.
+      // Giá trị: GeneralChat, Coding, Reasoning, Summarization, Translation,
+      //          DocumentAnalysis, WebResearch, ToolCalling, ImageGeneration
+      "PreferredFor": []
+    },
+
+    {
+      // ------------------------------------------------------------------
+      // OPENAI QUA SDK CHÍNH THỨC (hợp đồng Responses)
+      // ------------------------------------------------------------------
+      //
+      // Khác "OpenAiCompatible" ở trên: loại này dùng gói OpenAI chính thức
+      // nên có gọi công cụ, tra web phía nhà cung cấp, kết quả ép theo lược
+      // đồ, và tham số mức suy luận. Đổi lại nó chỉ nói chuyện được với
+      // endpoint thật sự cài đặt hợp đồng Responses.
+      //
+      // Mặc định TẮT, vì nó gọi ra ngoài máy và tốn tiền.
+      "Name": "openai",
+      "Type": "OpenAiResponses",
+      "Enabled": false,
+
+      // Bỏ trống = địa chỉ mặc định của SDK. Chỉ điền khi trỏ tới Azure
+      // OpenAI hoặc một proxy nội bộ.
+      "Endpoint": "",
+
+      // TÊN biến môi trường, KHÔNG phải khoá. Đặt khoá (PowerShell):
+      //     $env:OPENAI_API_KEY = "..."
+      "ApiKeyEnvironmentVariable": "OPENAI_API_KEY",
+
+      // Model dùng khi loại việc không có model riêng ở "TaskModels".
+      // KHÔNG có giá trị mặc định nào ở đây là tên một model thật: tên model
+      // đổi theo thời gian, và ghi sẵn một cái là hẹn ngày nó sai.
+      "DefaultModel": "đặt-tên-model-ở-đây",
+
+      // MODEL THEO TỪNG LOẠI VIỆC — ứng với "AI:Models:*".
+      // Mọi trường đều bỏ trống được; bỏ trống thì dùng DefaultModel.
+      "TaskModels": {
+        "Chat": null,
+        "Reasoning": null,
+        "Research": null,
+        "Coding": null,
+        "Vision": null,
+        "Embedding": null,
+        "ImageGeneration": null
+      },
+
+      // Danh sách CHO PHÉP (khác TaskModels, vốn là LỰA CHỌN).
+      // Rỗng = cho phép mọi model.
+      "Models": [],
+
+      // --- Hạn mức chi phí ---
+      //
+      // MaxOutputTokens CẮT trên giá trị mà chỗ gọi yêu cầu: chỗ gọi xin 4000
+      // mà đây ghi 1500 thì được 1500. Hạn mức là của người vận hành.
+      // 0 = không đặt trần ở lớp cấu hình.
+      "MaxOutputTokens": 1500,
+      "MaxToolCalls": 4,
+
+      "TimeoutSeconds": 60,
+
+      // ĐỂ THẤP, và đây là lý do: SDK chính thức ĐÃ tự thử lại vài lỗi tạm
+      // thời ở tầng HTTP của nó. Đặt 3 ở đây nghĩa là 3 × số lần SDK tự thử,
+      // và một lượt 429 có thể thành cả chục lượt gọi thật.
+      "MaxRetries": 1,
+
+      // Mức suy luận cho model có hỗ trợ: minimal / low / medium / high.
+      // Bỏ trống = không gửi tham số này, và lúc đó Temperature được gửi.
+      // (Model suy luận từ chối Temperature — không gửi cả hai cùng lúc.)
+      "ReasoningEffort": null,
+
+      // Công cụ tra web PHÍA NHÀ CUNG CẤP. Chỉ có tác dụng với loại việc
+      // WebResearch — bật cho mọi lượt sẽ khiến cả "2 + 2" cũng có thể phát
+      // sinh một lượt tìm kiếm tính tiền.
+      "EnableWebSearch": false,
+
+      // Cho phép nhà cung cấp LƯU nội dung lượt gọi ở phía họ.
+      // Mặc định false: prompt và câu trả lời là dữ liệu người dùng. Bật lên
+      // nghĩa là chúng nằm lại trên máy chủ bên thứ ba.
+      "AllowProviderSideStorage": false,
+
+      "PreferredFor": []
+    }
+  ]
+}

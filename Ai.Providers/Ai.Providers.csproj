@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Ai.Providers</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      Tham chiếu tới phase MỚI NHẤT chỉ để DÙNG LẠI những thứ đã có, không tạo
+      bản trùng: IClock, Keywords, UntrustedText (bọc nội dung không tin cậy).
+
+      Chiều phụ thuộc là một chiều và có chủ ý: lớp provider biết về core, core
+      KHÔNG biết gì về provider. Nhờ vậy Phase 1–16 chạy y như trước dù lớp này
+      có tồn tại hay không.
+
+      Không có PackageReference nào: HttpClient và System.Text.Json đều nằm
+      trong BCL. Cấu hình đọc bằng System.Text.Json thay vì
+      Microsoft.Extensions.Configuration — xem AiProvidersFile để biết vì sao.
+    -->
+    <ProjectReference Include="..\Phase16.Retraining\Phase16.Retraining.csproj" />
+  </ItemGroup>
+
+</Project>

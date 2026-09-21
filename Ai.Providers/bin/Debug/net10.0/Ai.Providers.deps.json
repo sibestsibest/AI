@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Ai.Providers/1.0.0": {
+        "dependencies": {
+          "Phase16.Retraining": "1.0.0"
+        },
+        "runtime": {
+          "Ai.Providers.dll": {}
+        }
+      },
+      "Phase16.Retraining/1.0.0": {
+        "runtime": {
+          "Phase16.Retraining.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ai.Providers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Phase16.Retraining/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
