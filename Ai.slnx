@@ -1,0 +1,44 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Ai.Chat/Ai.Chat.csproj" />
+    <Project Path="src/Ai.Providers/Ai.Providers.csproj" />
+    <Project Path="src/Ai.Providers.OpenAi/Ai.Providers.OpenAi.csproj" />
+    <Project Path="src/Phase1.LinearRegression/Phase1.LinearRegression.csproj" />
+    <Project Path="src/Phase10.Memory/Phase10.Memory.csproj" />
+    <Project Path="src/Phase11.Agent/Phase11.Agent.csproj" />
+    <Project Path="src/Phase12.Internet/Phase12.Internet.csproj" />
+    <Project Path="src/Phase13.Evidence/Phase13.Evidence.csproj" />
+    <Project Path="src/Phase14.Verification/Phase14.Verification.csproj" />
+    <Project Path="src/Phase15.Feedback/Phase15.Feedback.csproj" />
+    <Project Path="src/Phase16.Retraining/Phase16.Retraining.csproj" />
+    <Project Path="src/Phase2.NeuralNetwork/Phase2.NeuralNetwork.csproj" />
+    <Project Path="src/Phase3.Backpropagation/Phase3.Backpropagation.csproj" />
+    <Project Path="src/Phase4.Classification/Phase4.Classification.csproj" />
+    <Project Path="src/Phase5.Embedding/Phase5.Embedding.csproj" />
+    <Project Path="src/Phase6.LanguageModel/Phase6.LanguageModel.csproj" />
+    <Project Path="src/Phase7.Attention/Phase7.Attention.csproj" />
+    <Project Path="src/Phase8.Transformer/Phase8.Transformer.csproj" />
+    <Project Path="src/Phase9.Reasoning/Phase9.Reasoning.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Ai.Chat.Tests/Ai.Chat.Tests.csproj" />
+    <Project Path="tests/Ai.Providers.Tests/Ai.Providers.Tests.csproj" />
+    <Project Path="tests/Ai.Providers.OpenAi.Tests/Ai.Providers.OpenAi.Tests.csproj" />
+    <Project Path="tests/Phase1.LinearRegression.Tests/Phase1.LinearRegression.Tests.csproj" />
+    <Project Path="tests/Phase10.Memory.Tests/Phase10.Memory.Tests.csproj" />
+    <Project Path="tests/Phase11.Agent.Tests/Phase11.Agent.Tests.csproj" />
+    <Project Path="tests/Phase12.Internet.Tests/Phase12.Internet.Tests.csproj" />
+    <Project Path="tests/Phase13.Evidence.Tests/Phase13.Evidence.Tests.csproj" />
+    <Project Path="tests/Phase14.Verification.Tests/Phase14.Verification.Tests.csproj" />
+    <Project Path="tests/Phase15.Feedback.Tests/Phase15.Feedback.Tests.csproj" />
+    <Project Path="tests/Phase16.Retraining.Tests/Phase16.Retraining.Tests.csproj" />
+    <Project Path="tests/Phase2.NeuralNetwork.Tests/Phase2.NeuralNetwork.Tests.csproj" />
+    <Project Path="tests/Phase3.Backpropagation.Tests/Phase3.Backpropagation.Tests.csproj" />
+    <Project Path="tests/Phase4.Classification.Tests/Phase4.Classification.Tests.csproj" />
+    <Project Path="tests/Phase5.Embedding.Tests/Phase5.Embedding.Tests.csproj" />
+    <Project Path="tests/Phase6.LanguageModel.Tests/Phase6.LanguageModel.Tests.csproj" />
+    <Project Path="tests/Phase7.Attention.Tests/Phase7.Attention.Tests.csproj" />
+    <Project Path="tests/Phase8.Transformer.Tests/Phase8.Transformer.Tests.csproj" />
+    <Project Path="tests/Phase9.Reasoning.Tests/Phase9.Reasoning.Tests.csproj" />
+  </Folder>
+</Solution>
