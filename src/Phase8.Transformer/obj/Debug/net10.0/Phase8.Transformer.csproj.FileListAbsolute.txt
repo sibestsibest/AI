@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\bin\Debug\net10.0\Phase8.Transformer.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\bin\Debug\net10.0\Phase8.Transformer.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\bin\Debug\net10.0\Phase8.Transformer.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\bin\Debug\net10.0\Phase8.Transformer.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\bin\Debug\net10.0\Phase8.Transformer.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\Phase8.Transformer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\Phase8.Transformer.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\Phase8.Transformer.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\Phase8.Transformer.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\Phase8.Transformer.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\refint\Phase8.Transformer.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\Phase8.Transformer.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\Phase8.Transformer.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase8.Transformer\obj\Debug\net10.0\ref\Phase8.Transformer.dll

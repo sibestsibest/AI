@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\bin\Debug\net10.0\Phase16.Retraining.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\bin\Debug\net10.0\Phase16.Retraining.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\bin\Debug\net10.0\Phase16.Retraining.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\bin\Debug\net10.0\Phase16.Retraining.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\bin\Debug\net10.0\Phase16.Retraining.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\Phase16.Retraining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\Phase16.Retraining.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\Phase16.Retraining.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\Phase16.Retraining.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\Phase16.Retraining.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\refint\Phase16.Retraining.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\Phase16.Retraining.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\Phase16.Retraining.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase16.Retraining\obj\Debug\net10.0\ref\Phase16.Retraining.dll

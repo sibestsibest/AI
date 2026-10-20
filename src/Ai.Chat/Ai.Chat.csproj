@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Ai.Chat</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      Màn hình chat dùng phase MỚI NHẤT (16), tức là toàn bộ chồng: phân loại ý
+      định -> công cụ -> căn cứ -> kiểm chứng -> phản hồi -> huấn luyện lại.
+
+      Đây là project DUY NHẤT trong dự án tham chiếu tới một phase. Các phase
+      không tham chiếu lẫn nhau — mỗi phase mang bản sao core của phase trước để
+      đọc được độc lập từ đầu đến cuối.
+    -->
+    <ProjectReference Include="..\Phase16.Retraining\Phase16.Retraining.csproj" />
+
+    <!--
+      Lớp provider (LLM ngoài). Màn hình dựng nó lên nhưng KHÔNG dùng cho tới
+      khi người dùng gõ /llm on — mặc định vẫn là bộ sinh theo khuôn của
+      Phase 14, nên hành vi mặc định không đổi.
+    -->
+    <ProjectReference Include="..\Ai.Providers\Ai.Providers.csproj" />
+
+    <!--
+      Lớp OpenAI (SDK chính thức, hợp đồng Responses). Chỉ project NÀY tham
+      chiếu nó, và cũng chỉ để truyền OpenAiProviders.Create vào lúc dựng. Bỏ
+      dòng này đi thì màn hình vẫn chạy y nguyên — chỉ là loại provider
+      "OpenAiResponses" trong cấu hình sẽ báo chưa hỗ trợ.
+    -->
+    <ProjectReference Include="..\Ai.Providers.OpenAi\Ai.Providers.OpenAi.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\bin\Debug\net10.0\Phase2.NeuralNetwork.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\bin\Debug\net10.0\Phase2.NeuralNetwork.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\bin\Debug\net10.0\Phase2.NeuralNetwork.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\bin\Debug\net10.0\Phase2.NeuralNetwork.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\bin\Debug\net10.0\Phase2.NeuralNetwork.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\Phase2.NeuralNetwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\Phase2.NeuralNetwork.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\Phase2.NeuralNetwork.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\Phase2.NeuralNetwork.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\Phase2.NeuralNetwork.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\refint\Phase2.NeuralNetwork.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\Phase2.NeuralNetwork.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\Phase2.NeuralNetwork.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase2.NeuralNetwork\obj\Debug\net10.0\ref\Phase2.NeuralNetwork.dll

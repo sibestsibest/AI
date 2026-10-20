@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Phase13.Evidence/1.0.0": {
+        "runtime": {
+          "Phase13.Evidence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Phase13.Evidence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

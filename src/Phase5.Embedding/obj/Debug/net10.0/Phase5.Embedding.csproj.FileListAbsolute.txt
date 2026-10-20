@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\bin\Debug\net10.0\Phase5.Embedding.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\bin\Debug\net10.0\Phase5.Embedding.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\bin\Debug\net10.0\Phase5.Embedding.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\bin\Debug\net10.0\Phase5.Embedding.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\bin\Debug\net10.0\Phase5.Embedding.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\Phase5.Embedding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\Phase5.Embedding.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\Phase5.Embedding.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\Phase5.Embedding.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\Phase5.Embedding.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\refint\Phase5.Embedding.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\Phase5.Embedding.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\Phase5.Embedding.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase5.Embedding\obj\Debug\net10.0\ref\Phase5.Embedding.dll

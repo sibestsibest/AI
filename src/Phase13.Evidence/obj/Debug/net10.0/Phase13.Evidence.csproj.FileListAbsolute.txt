@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\bin\Debug\net10.0\Phase13.Evidence.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\bin\Debug\net10.0\Phase13.Evidence.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\bin\Debug\net10.0\Phase13.Evidence.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\bin\Debug\net10.0\Phase13.Evidence.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\bin\Debug\net10.0\Phase13.Evidence.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\Phase13.Evidence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\Phase13.Evidence.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\Phase13.Evidence.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\Phase13.Evidence.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\Phase13.Evidence.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\refint\Phase13.Evidence.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\Phase13.Evidence.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\Phase13.Evidence.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase13.Evidence\obj\Debug\net10.0\ref\Phase13.Evidence.dll

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Ai.Providers\Ai.Providers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--
+      File mẫu được sao sang thư mục chạy để test ĐỌC ĐƯỢC NÓ THẬT.
+      File mẫu là tài liệu, và tài liệu thì mục rữa lặng lẽ: thêm một trường
+      vào code mà quên file mẫu, hoặc gõ sai tên trường trong file mẫu, đều
+      không có gì báo cho tới khi có người làm theo nó và thất bại.
+    -->
+    <None Include="..\..\src\Ai.Providers\aiproviders.sample.json"
+          Link="aiproviders.sample.json"
+          CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

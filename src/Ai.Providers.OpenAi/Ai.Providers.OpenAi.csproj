@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Ai.Providers.OpenAi</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+
+    <!--
+      OPENAI001: hợp đồng Responses trong SDK 2.14.0 vẫn được đánh dấu THỬ
+      NGHIỆM, và mặc định nó là LỖI biên dịch chứ không phải cảnh báo.
+
+      Tắt nó ở ĐÚNG project này chứ không tắt toàn giải pháp: nó là lời nhắc
+      rằng những kiểu đó có thể đổi tên ở bản sau (chúng đã đổi một lần —
+      OpenAIResponseClient -> ResponsesClient). Giới hạn phạm vi tắt ở đây
+      nghĩa là khi SDK đổi, đúng một project hỏng, và hỏng ngay lúc build.
+
+      Đây cũng là lý do lớp provider được bọc sau IAiProvider: phần còn lại của
+      MiniAI không tham chiếu kiểu nào của SDK, nên một lần đổi tên như vậy
+      không lan ra ngoài thư mục này.
+    -->
+    <NoWarn>$(NoWarn);OPENAI001</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      VÌ SAO GÓI SDK NẰM Ở ĐÂY, KHÔNG NẰM TRONG Ai.Providers?
+
+      Ai.Providers cố ý KHÔNG có PackageReference nào (xem csproj của nó): cả
+      lớp provider chạy bằng HttpClient và System.Text.Json trong BCL. Đưa SDK
+      của một nhà cung cấp vào đó sẽ bắt MỌI provider — kể cả Ollama tại máy —
+      kéo theo một gói của OpenAI.
+
+      Tách ra một project riêng giữ được tính chất đó, và đổi lại đúng một
+      dòng tham chiếu. Phần còn lại của hệ thống chỉ thấy IAiProvider; không có
+      kiểu nào của OpenAI rời khỏi project này.
+    -->
+    <PackageReference Include="OpenAI" Version="2.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ai.Providers\Ai.Providers.csproj" />
+  </ItemGroup>
+
+</Project>
