@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\bin\Debug\net10.0\Phase15.Feedback.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\bin\Debug\net10.0\Phase15.Feedback.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\bin\Debug\net10.0\Phase15.Feedback.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\bin\Debug\net10.0\Phase15.Feedback.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\bin\Debug\net10.0\Phase15.Feedback.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\Phase15.Feedback.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\Phase15.Feedback.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\Phase15.Feedback.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\Phase15.Feedback.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\Phase15.Feedback.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\refint\Phase15.Feedback.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\Phase15.Feedback.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\Phase15.Feedback.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase15.Feedback\obj\Debug\net10.0\ref\Phase15.Feedback.dll

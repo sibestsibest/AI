@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\bin\Debug\net10.0\Phase6.LanguageModel.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\bin\Debug\net10.0\Phase6.LanguageModel.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\bin\Debug\net10.0\Phase6.LanguageModel.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\bin\Debug\net10.0\Phase6.LanguageModel.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\bin\Debug\net10.0\Phase6.LanguageModel.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\Phase6.LanguageModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\Phase6.LanguageModel.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\Phase6.LanguageModel.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\Phase6.LanguageModel.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\Phase6.LanguageModel.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\refint\Phase6.LanguageModel.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\Phase6.LanguageModel.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\Phase6.LanguageModel.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase6.LanguageModel\obj\Debug\net10.0\ref\Phase6.LanguageModel.dll

@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\bin\Debug\net10.0\Phase3.Backpropagation.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\bin\Debug\net10.0\Phase3.Backpropagation.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\bin\Debug\net10.0\Phase3.Backpropagation.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\bin\Debug\net10.0\Phase3.Backpropagation.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\bin\Debug\net10.0\Phase3.Backpropagation.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\Phase3.Backpropagation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\Phase3.Backpropagation.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\Phase3.Backpropagation.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\Phase3.Backpropagation.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\Phase3.Backpropagation.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\refint\Phase3.Backpropagation.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\Phase3.Backpropagation.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\Phase3.Backpropagation.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase3.Backpropagation\obj\Debug\net10.0\ref\Phase3.Backpropagation.dll

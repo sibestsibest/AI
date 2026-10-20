@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\bin\Debug\net10.0\Phase10.Memory.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\bin\Debug\net10.0\Phase10.Memory.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\bin\Debug\net10.0\Phase10.Memory.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\bin\Debug\net10.0\Phase10.Memory.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\bin\Debug\net10.0\Phase10.Memory.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\Phase10.Memory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\Phase10.Memory.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\Phase10.Memory.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\Phase10.Memory.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\Phase10.Memory.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\refint\Phase10.Memory.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\Phase10.Memory.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\Phase10.Memory.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase10.Memory\obj\Debug\net10.0\ref\Phase10.Memory.dll

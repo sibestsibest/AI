@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\bin\Debug\net10.0\Phase4.Classification.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\bin\Debug\net10.0\Phase4.Classification.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\bin\Debug\net10.0\Phase4.Classification.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\bin\Debug\net10.0\Phase4.Classification.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\bin\Debug\net10.0\Phase4.Classification.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\Phase4.Classification.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\Phase4.Classification.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\Phase4.Classification.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\Phase4.Classification.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\Phase4.Classification.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\refint\Phase4.Classification.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\Phase4.Classification.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\Phase4.Classification.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase4.Classification\obj\Debug\net10.0\ref\Phase4.Classification.dll

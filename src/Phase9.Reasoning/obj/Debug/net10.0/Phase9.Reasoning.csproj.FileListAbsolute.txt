@@ -1,0 +1,14 @@
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\bin\Debug\net10.0\Phase9.Reasoning.exe
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\bin\Debug\net10.0\Phase9.Reasoning.deps.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\bin\Debug\net10.0\Phase9.Reasoning.runtimeconfig.json
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\bin\Debug\net10.0\Phase9.Reasoning.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\bin\Debug\net10.0\Phase9.Reasoning.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\Phase9.Reasoning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\Phase9.Reasoning.AssemblyInfoInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\Phase9.Reasoning.AssemblyInfo.cs
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\Phase9.Reasoning.csproj.CoreCompileInputs.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\Phase9.Reasoning.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\refint\Phase9.Reasoning.dll
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\Phase9.Reasoning.pdb
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\Phase9.Reasoning.genruntimeconfig.cache
+C:\Users\hung.pt\projects\MiniAi\src\Phase9.Reasoning\obj\Debug\net10.0\ref\Phase9.Reasoning.dll

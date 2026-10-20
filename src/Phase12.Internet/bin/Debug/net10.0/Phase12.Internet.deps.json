@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Phase12.Internet/1.0.0": {
+        "runtime": {
+          "Phase12.Internet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Phase12.Internet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
